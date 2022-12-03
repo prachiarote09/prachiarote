@@ -1,0 +1,83 @@
+.container
+{
+    margin: top 200px;
+}
+
+body
+{
+  background-image: url("C:/Users/arti/Downloads/logback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+    border: 15px double #141010;
+    text-align:center;
+    width:72%;
+  }
+  
+ 
+  input[type=text], input[type=password] {
+    width: 25%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+ 
+  button {
+    background-color: #8c04aa;
+    color: white;
+    margin: 50px 0px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 20px;
+    background-color: rgb(221, 89, 45);
+  }
+ 
+  .imgcontainer {
+    text-align: center;
+    margin: 15px 0 10px 0;
+  }
+  
+ 
+  img.log {
+    width: 10%;
+    border-radius: 20%;
+  }
+  
+  
+  .container {
+    padding: 16px;
+  }
+  
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+ 
+  @media screen and (max-width: 40px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
